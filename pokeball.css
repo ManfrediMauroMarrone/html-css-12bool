@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+[class*="col-"] {
+    height: 100px;
+}
+                        /* row1 */
+.row1 .col-1:nth-child(5),
+.row1 .col-1:nth-child(6),
+.row1 .col-1:nth-child(7),
+.row1 .col-1:nth-child(8){
+    background-color: black;
+}
+                        /* row2 */
+.row2 .col-1:nth-child(3),
+.row2 .col-1:nth-child(4),
+.row2 .col-1:nth-child(9),
+.row2 .col-1:nth-child(10){
+    background-color: black;
+}
+
+.row2 .col-1:nth-child(5),
+.row2 .col-1:nth-child(6),
+.row2 .col-1:nth-child(7),
+.row2 .col-1:nth-child(8){
+    background-color: #F34135;
+}
+                        /* row3 */
+.row3 .col-1:nth-child(2),
+.row3 .col-1:nth-child(11){
+    background-color: black;
+}
+
+.row3 .col-1:nth-child(3),
+.row3 .col-1:nth-child(4),
+.row3 .col-1:nth-child(6),
+.row3 .col-1:nth-child(7),
+.row3 .col-1:nth-child(8),
+.row3 .col-1:nth-child(9),
+.row3 .col-1:nth-child(10){
+    background-color: #F34135;
+}
+                            /* row4 */
+.row4 .col-1:nth-child(2),
+.row4 .col-1:nth-child(11){
+    background-color: black;
+}
+
+.row4 .col-1:nth-child(3),
+.row4 .col-1:nth-child(7),
+.row4 .col-1:nth-child(8),
+.row4 .col-1:nth-child(9),
+.row4 .col-1:nth-child(10){
+    background-color: #F34135;
+}
+                            /* row5 */
+.row5 .col-1:nth-child(1),
+.row5 .col-1:nth-child(12){
+    background-color: black;
+}
+
+.row5 .col-1:nth-child(2),
+.row5 .col-1:nth-child(3),
+.row5 .col-1:nth-child(4),
+.row5 .col-1:nth-child(6),
+.row5 .col-1:nth-child(7),
+.row5 .col-1:nth-child(8),
+.row5 .col-1:nth-child(9),
+.row5 .col-1:nth-child(10),
+.row5 .col-1:nth-child(11){
+    background-color: #F34135;
+}
+                        /* row6 */
+.row6 .col-1:nth-child(1),
+.row6 .col-1:nth-child(6),
+.row6 .col-1:nth-child(7),
+.row6 .col-1:nth-child(12){
+    background-color: black;
+}
+
+.row6 .col-1:nth-child(2),
+.row6 .col-1:nth-child(3),
+.row6 .col-1:nth-child(4),
+.row6 .col-1:nth-child(5),
+.row6 .col-1:nth-child(8),
+.row6 .col-1:nth-child(9),
+.row6 .col-1:nth-child(10),
+.row6 .col-1:nth-child(11){
+    background-color: #F34135;
+}
+                        /* row7 */
+.row7 .col-1:nth-child(1),
+.row7 .col-1:nth-child(2),
+.row7 .col-1:nth-child(5),
+.row7 .col-1:nth-child(8),
+.row7 .col-1:nth-child(11),
+.row7 .col-1:nth-child(12){
+    background-color: black;
+}
+
+.row7 .col-1:nth-child(3),
+.row7 .col-1:nth-child(4),
+.row7 .col-1:nth-child(9),
+.row7 .col-1:nth-child(10){
+    background-color: #F34135;
+}
+
+.row7 .col-1:nth-child(7){
+    background-color: #9D9D9D;
+}
+                        /* row8 */
+.row8 .col-1:nth-child(1),
+.row8 .col-1:nth-child(3),
+.row8 .col-1:nth-child(4),
+.row8 .col-1:nth-child(5),
+.row8 .col-1:nth-child(8),
+.row8 .col-1:nth-child(9),
+.row8 .col-1:nth-child(10),
+.row8 .col-1:nth-child(12){
+    background-color: black;
+}
+
+.row8 .col-1:nth-child(6),
+.row8 .col-1:nth-child(7),
+.row8 .col-1:nth-child(11){
+    background-color: #9D9D9D;
+}
+                            /* row9 */
+.row9 .col-1:nth-child(2),
+.row9 .col-1:nth-child(6),
+.row9 .col-1:nth-child(7),
+.row9 .col-1:nth-child(11){
+    background-color: black;
+}
+
+.row9 .col-1:nth-child(8),
+.row9 .col-1:nth-child(9),
+.row9 .col-1:nth-child(10){
+    background-color: #9D9D9D;
+}
+                            /* row10 */
+.row10 .col-1:nth-child(2),
+.row10 .col-1:nth-child(11){
+    background-color: black;
+}
+
+.row10 .col-1:nth-child(3),
+.row10 .col-1:nth-child(7),
+.row10 .col-1:nth-child(8),
+.row10 .col-1:nth-child(9),
+.row10 .col-1:nth-child(10){
+    background-color: #9D9D9D;
+}
+                            /* row11 */
+.row11 .col-1:nth-child(3),
+.row11 .col-1:nth-child(4),
+.row11 .col-1:nth-child(9),
+.row11 .col-1:nth-child(10){
+    background-color: black;
+}
+
+.row11 .col-1:nth-child(5),
+.row11 .col-1:nth-child(6),
+.row11 .col-1:nth-child(7),
+.row11 .col-1:nth-child(8){
+    background-color: #9D9D9D;
+}
+
+.row12 .col-1:nth-child(5),
+.row12 .col-1:nth-child(6),
+.row12 .col-1:nth-child(7),
+.row12 .col-1:nth-child(8){
+    background-color: black;
+}
